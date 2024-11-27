@@ -116,16 +116,16 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <Link
-              href="#pricing"
+              href="/auth"
               className="btn-primary px-4 py-2.5 text-base lg:text-md rounded-sm"
             >
               Get Started Free
             </Link>
             <Link
-              href="#features"
+              href="#pricing"
               className="btn-secondary px-4 py-2.5 text-base lg:text-md rounded-sm border border-border/50"
             >
-              Learn More
+              Pricing
             </Link>
           </motion.div>
         </div>

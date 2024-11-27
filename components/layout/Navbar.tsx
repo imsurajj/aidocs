@@ -10,7 +10,7 @@ const navItems: NavItem[] = [
   { label: 'How it Works', href: '#how-it-works' },
   { label: 'Pricing', href: '#pricing' },
   { label: 'FAQ', href: '#faq' },
-  { label: 'Get Started', href: '/login', isButton: true },
+  { label: 'Get Started', href: '/auth', isButton: true },
 ];
 
 const Navbar: React.FC = () => {
